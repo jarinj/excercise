@@ -1,0 +1,2 @@
+# excercise
+understanding git
