@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+     > 
+     
+    
+    <!-- Home-->
+    
+    <item android:id="@+id/home"        
+          android:title="Home"
+          android:showAsAction="ifRoom" />
+         
+    <!-- View Restaurant-->
+    <!--
+    <item android:id="@+id/viewProfile"        
+          android:title="View Restaurant"
+          android:showAsAction="ifRoom" />
+     -->   
+    <!-- Add restaurant -->
+    <item android:id="@+id/addRestaurant"         
+          android:title="Add Restaurant"
+          android:showAsAction="never" />
+    
+    <!-- View Profile-->
+    <!--
+    <item android:id="@+id/viewAll"        
+          android:title="View All Restaurant"
+          android:showAsAction="ifRoom" />
+     -->     
+</menu>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Find Restaurent</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_display_data_source">DisplayDataSourceActivity</string>
+
+    <!-- create_Restaurent_Profile -->
+    <string name="tvHeadRestaurantProfile">Restaurant Profile</string>
+    <string name="tvHeadCreateProfile">Create Profile</string>
+    <string name="tvNameCreateProfile">Restaurent Name :</string>
+    <string name="etName">restaurent name</string>
+    <string name="tvDescription">Description :</string>
+    <string name="etDescription">description</string>
+    <string name="tvAddress">Address :</string>
+    <string name="etAddress">address</string>
+    <string name="tvLatitude">Latitude</string>
+    <string name="etLatitude">latitude</string>
+    <string name="tvLongitude">Longitude</string>
+    <string name="etLongitude">longitude</string>
+    <string name="tvMenu">Menu</string>
+    <string name="etMenu">Menu</string>
+    <string name="tvSpecialMenu">SpecialMenu</string>
+    <string name="etSpecialMenu">specialMenu</string>
+    <string name="tvClose">Close Time</string>
+    <string name="etClose">close time</string>
+    <string name="tvOpen">Open Time</string>
+    <string name="etOpen">open time</string>
+    <string name="bSaveCP">Submit</string>
+    <string name="title_activity_view_profile">ViewProfile</string>
+    <!-- view_profile -->
+    <string name="tvUserVP">User\'s Profile</string>
+    <string name="tvNameVP">Name : </string>
+    <string name="tvDescriptionVP">Description : </string>
+    <string name="tvAddressVP">Address : </string>
+    <string name="tvLatitudeVP">Latitude : </string>
+    <string name="tvLongitudeVP">Longitude : </string>
+    <string name="tvMenuVP">Menu : </string>
+    <string name="tvSpecialMenuVP">Special Menu : </string>
+    <string name="tvCloseVP">Close Day : </string>
+    <string name="tvOpenVP">Daily Open Time : </string>
+    <string name="bUpdateVP">Update</string>
+    <string name="bGoogleMap">Google Map</string>
+    <string name="title_activity_google_map">GoogleMapActivity</string>
+    
+    <!-- menu -->
+	<string name="edit">Edit</string>
+	<string name="delete">Delet</string>
+</resources>
