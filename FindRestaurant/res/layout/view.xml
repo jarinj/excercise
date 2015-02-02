@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menubg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:id="@+id/tvUserVP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/tvUserVP"
+            android:textColor="#397f00"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/tvNameVP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:text="@string/tvNameVP"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tvDescriptionVP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:text="@string/tvDescriptionVP"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tvAddressVP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:text="@string/tvAddressVP"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tvLatitudeVP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:text="@string/tvLatitudeVP"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tvLongitudeVP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:text="@string/tvLongitudeVP"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tvMenuVP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:text="@string/tvMenuVP"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tvSpecialMenuVP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:text="@string/tvSpecialMenuVP"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tvCloseVP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:text="@string/tvCloseVP"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tvOpenVP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:text="@string/tvOpenVP"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+</LinearLayout>
