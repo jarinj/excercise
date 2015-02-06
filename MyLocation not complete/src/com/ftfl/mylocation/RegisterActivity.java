@@ -1,53 +1,15 @@
 package com.ftfl.mylocation;
 
-import android.content.Intent;
-import android.graphics.Bitmap;
-import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
+import android.content.Intent;
+import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
-import android.widget.ImageView;
-import android.widget.TextView;
-
-import com.ftfl.mylocation.model.LocationModel;
-import com.ftfl.mylocation.utils.GPSTracker;
-import com.google.android.gms.fitness.data.DataSource;
 
 public class RegisterActivity extends ActionBarActivity {
-	// Variable Declaration
-	ImageView mImageView = null;
-	TextView mtvLatitude = null;
-	TextView mtvLongitude = null;
-	EditText metRemarks = null;
-	Button mButtonSave = null;
-
-	// String Values
-	String mImage = null;
-	String mLatitude = null;
-	String mLongitude = null;
-	String mRemarks = null;
-	String mLocalTime = null;
-
-	// Intent Object
-	Intent mIntent = null;
-
-	// Profile Object
-	LocationModel mLocation = null;
-
-	// GPSTracker class
-	GPSTracker mGPS = null;
-
-	// DataSource Object
-	DataSource mDataSource = null;
-
-	// Photo Object
-	String mPhotoPath = "";
-	Bitmap bitmap = null;
-
-
+	
 	Button mRegister;
 
 	@Override

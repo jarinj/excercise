@@ -8,10 +8,9 @@ public class LocationModel {
 	String mImage = "";
 	String mDate = "";
 	String mTime = "";
-	String mDistance = "";
 
 	public LocationModel(Integer mID, String mLatitude, String mLongitude,
-			String mRemarks, String mImage, String mDate, String mTime, String mDistance) {
+			String mRemarks, String mImage, String mDate, String mTime) {
 		super();
 		this.mID = mID;
 		this.mLatitude = mLatitude;
@@ -20,7 +19,6 @@ public class LocationModel {
 		this.mImage = mImage;
 		this.mDate = mDate;
 		this.mTime = mTime;
-		this.mDistance = mDistance;
 	}
 
 	public Integer getmID() {
@@ -77,14 +75,6 @@ public class LocationModel {
 
 	public void setmTime(String mTime) {
 		this.mTime = mTime;
-	}
-	
-	public String getmDistance() {
-		return mDistance;
-	}
-
-	public void setmDistance(String mDistance) {
-		this.mDistance = mDistance;
 	}
 	
 	

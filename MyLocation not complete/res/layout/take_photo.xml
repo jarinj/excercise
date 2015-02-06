@@ -5,6 +5,7 @@
     android:background="@drawable/bg"
     android:baselineAligned="false"
     android:orientation="vertical"
+    
     tools:context="com.ftfl.mylocation.TakePhotoActivity" >
 
     <LinearLayout
@@ -47,11 +48,10 @@
             android:id="@+id/btnCapturePicture"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_margin="10dp"
+            android:layout_marginBottom="10dp"
             android:background="#bcecdc"
-            android:onClick="dispatchTakePictureIntent"
-            android:text="Take Photo" />
+            android:padding="5dp"
+            android:text="Take photo" />
 
         <Button
             android:id="@+id/bRegisterTakePhoto"
@@ -60,6 +60,7 @@
             android:layout_marginBottom="10dp"
             android:background="#bcecdc"
             android:padding="5dp"
+            android:onClick="clickToRegister"
             android:text="Register" />
     </LinearLayout>
 
