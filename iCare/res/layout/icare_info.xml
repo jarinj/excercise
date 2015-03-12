@@ -1,0 +1,138 @@
+<!-- A DrawerLayout is intended to be used as the top-level content view using match_parent for both width and height to consume the full space available. -->
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!--
+         As the main content view, the view below consumes the entire
+         space available using match_parent in both dimensions.
+    -->
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:weightSum="2" >
+
+                <Button
+                    android:id="@+id/bProfile"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="#bcecdc"
+                    android:drawableTop="@drawable/user"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:text="My Profile" />
+
+                <Button
+                    android:id="@+id/bDiet"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#bcecdc"
+                    android:drawableTop="@drawable/diet"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:text="Add Diet" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:orientation="horizontal"
+                android:weightSum="2" >
+
+                <Button
+                    android:id="@+id/bCall"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="#bcecdc"
+                    android:drawableTop="@drawable/contact"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:text="Emergency Call" />
+
+                <Button
+                    android:id="@+id/bDr"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#bcecdc"
+                    android:drawableTop="@drawable/dr"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:text="Add Dr. Profile" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:orientation="horizontal"
+                android:weightSum="2" >
+
+                <Button
+                    android:id="@+id/bMap"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="#bcecdc"
+                    android:drawableTop="@drawable/map_map"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:text="Location Map" />
+
+                <Button
+                    android:id="@+id/bVaccine"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#bcecdc"
+                    android:drawableTop="@drawable/vaccination"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:text="Add Vaccination" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+    <!--
+         android:layout_gravity="start" tells DrawerLayout to treat
+         this as a sliding drawer on the left side for left-to-right
+         languages and on the right side for right-to-left languages.
+         The drawer is given a fixed width in dp and extends the full height of
+         the container. A solid background is used for contrast
+         with the content view.
+    -->
+
+    <ListView
+        android:id="@+id/left_drawer"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#bcecdc"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/black"
+        android:dividerHeight="1dp" />
+
+</android.support.v4.widget.DrawerLayout>

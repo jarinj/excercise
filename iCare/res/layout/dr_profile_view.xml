@@ -1,0 +1,297 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ftfl.mymeetingplace.ViewActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/ivPrescription"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_launcher" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/tvDrName"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.52"
+                        android:text="Dr's Name : "
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/showLat"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="doctor's name"
+                        android:textColor="#1979ca"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+                </LinearLayout>
+                <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvPhone"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.52"
+                android:text="Phone : "
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tvShowPhone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="phone"
+                    android:textColor="#1979ca"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/bCall"
+                        android:layout_width="57dp"
+                        android:layout_height="24dp"
+                        android:layout_marginRight="10dp"
+                        android:background="#bcecdc"
+                        android:drawableLeft="@drawable/call"
+                        android:text="Call"
+                        android:onClick="makeCall"
+                        android:textSize="16sp" />
+
+                    <Button
+                        android:id="@+id/bSms"
+                        android:layout_width="67dp"
+                        android:layout_height="24dp"
+                        android:layout_marginRight="10dp"
+                        android:background="#bcecdc"
+                        android:drawableLeft="@drawable/sms"
+                        android:text="SMS"
+                        android:onClick="sendSms"
+                        android:textSize="16sp" />
+
+                    <Button
+                        android:id="@+id/bAdd"
+                        android:layout_width="57dp"
+                        android:layout_height="24dp"
+                        android:background="#bcecdc"
+                        android:drawableLeft="@drawable/add"
+                        android:text="Add"
+                        android:onClick="addToContact"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvMail"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.52"
+                android:text="Mail : "
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tvShowMail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    
+                    android:text="Mail : "
+                    android:textColor="#1979ca"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/bMail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#bcecdc"
+                    android:drawableLeft="@drawable/mail"
+                    android:text="Send Mail"
+                    android:onClick="sendEmail"
+                    android:textSize="16sp" />
+
+                
+            </LinearLayout>
+        </LinearLayout>
+        
+               <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvAddress"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.52"
+                android:text="Address : "
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tvShowAddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    
+                    android:text="Address : "
+                    android:textColor="#1979ca"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/bAddressOnMap"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#bcecdc"
+                    android:drawableLeft="@drawable/map"
+                    android:text="show map"
+                    android:onClick="sendEmail"
+                    android:textSize="16sp" />
+
+                
+            </LinearLayout>
+        </LinearLayout>
+        
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvAppointmentDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                
+                android:text="Appointment Date: "
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tvShowAppointmentDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                
+                android:text="12/02/2015 "
+                android:textColor="#1979ca"
+                android:textSize="16sp" />
+        </LinearLayout>
+        
+                <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvAppointmentTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                
+                android:text="Appointment Time: "
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tvShowAppointmentTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                
+                android:text="5 PM"
+                android:textColor="#1979ca"
+                android:textSize="16sp" />
+        </LinearLayout>
+                
+                
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bDrProfileList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#bcecdc"
+        android:onClick="viewall"
+        android:text="Doctor's Profile List" />
+
+</LinearLayout>

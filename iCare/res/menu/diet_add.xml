@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ftfl.icare.DietAddActivity" >
+
+    <!-- Diet Chart -->
+    <item android:id="@+id/DietChart"        
+          android:title="Diet Chart"
+          android:showAsAction="ifRoom" />
+
+
+</menu>

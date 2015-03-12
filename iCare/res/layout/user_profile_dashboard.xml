@@ -1,0 +1,105 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context="com.ftfl.icare.UserProfileDashboardActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="40dp"
+        android:weightSum="2" >
+
+        <Button
+            android:id="@+id/bProfile"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="#bcecdc"
+            android:drawableTop="@drawable/user"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="My Profile" />
+
+        <Button
+            android:id="@+id/bDiet"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:background="#bcecdc"
+            android:drawableTop="@drawable/diet"
+            android:text="Add Diet" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="40dp"
+        android:weightSum="2" >
+
+        <Button
+            android:id="@+id/bCall"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:background="#bcecdc"
+            android:drawableTop="@drawable/contact"
+            android:text="Emergency Call" />
+
+        <Button
+            android:id="@+id/bDr"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:background="#bcecdc"
+            android:drawableTop="@drawable/dr"
+            android:text="Add Dr. Profile" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="40dp"
+        android:weightSum="2" >
+
+        <Button
+            android:id="@+id/bHelp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            
+            android:layout_weight="1"
+            android:paddingTop="25dp"
+            android:paddingBottom="10dp"
+            android:background="#bcecdc"
+            android:drawableTop="@drawable/ic_launcher"
+            android:text="iCare Help" />
+
+        <Button
+            android:id="@+id/bVaccine"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:background="#bcecdc"
+            android:drawableTop="@drawable/vaccination"
+            android:text="Add Vaccination" />
+    </LinearLayout>
+
+</LinearLayout>

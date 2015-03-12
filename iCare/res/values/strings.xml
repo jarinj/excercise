@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">iCare</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_create_user_profile">CreateUserProfileActivity</string>
+    <string name="title_activity_view_user_profile">ViewUserProfileActivity</string>
+    <string name="title_activity_user_profile_list">UserProfileListActivity</string>
+    <string name="title_activity_doctor_profile_create">DoctorProfileCreateActivity</string>
+    <string name="title_activity_doctor_profile_view">DoctorProfileViewActivity</string>
+    <string name="title_activity_dr_profile_list">DrProfileListActivity</string>
+    <string name="title_activity_user_profile_dashboard">UserProfileDashboardActivity</string>
+    <string name="title_activity_diet_add">DietAddActivity</string>
+    <string name="title_activity_diet_list">DietListActivity</string>
+    <string name="title_activity_diet_view">DietViewActivity</string>
+    <string name="title_activity_vaccination_add">VaccinationAddActivity</string>
+    <string name="title_activity_vaccination_view">VaccinationViewActivity</string>
+    <string name="title_activity_vaccination_list">VaccinationListActivity</string>
+    <string name="title_activity_icare_info">ICareInfoActivity</string>
+    <string name="title_activity_emergency_call">EmergencyCallActivity</string>
+    <string name="general_fragment_text">This is general fragment</string>
+    <string name="vaccination_fragment_text">This is vaccination fragment</string>
+    <string name="growth_fragment_text">This is growth fragment</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- <string name="home_text">FTFL Navigation Drawer</string> -->
+
+    <string-array name="drawer_menu_array">
+        <item>General Health Info</item>
+        <item>Vaccination Info</item>
+        <item>Diet Info</item>
+        <item>Gallery</item>
+
+        <!-- <item>create</item> -->
+    </string-array>
+
+    <string name="textWeight">Weight</string>
+    <string name="textName">Name</string>
+    <string name="phone">Phone</string>
+    <string name="textHeight">Height</string>
+    <string name="hintName">enter name</string>
+    <string name="buttonSubmit">SAVE</string>
+    <string name="hintHeight">enter height(cm)</string>
+    <string name="gender">Gender</string>
+    <string name="textCreateProfileHeader"> Create Profile</string>
+    <string name="checkbox">CheckBox</string>
+    <string name="textGender">Gender</string>
+    <string name="radioButtonMale">Male</string>
+    <string name="radioButtonFemale">Female</string>
+    <string name="textAge">Age</string>
+    <string name="hintWeight">enter weight(kg)</string>
+    <string name="hintAge">enter age</string>
+    <string name="textBloodGroup">Blood Group</string>
+    <string name="hintBloodGroup">enter blood group</string>
+    <string name="addDietTextView">Add Your Diet</string>
+    <string name="feastNameText">Meal Course</string>
+    <string name="feastNameView">enter meal course</string>
+    <string name="pickDayTextView">"Pick a Day"</string>
+    <string name="pickTimeTextView">"Pick a Time"</string>
+    <string name="dateEditText">"Select date"</string>
+    <string name="timeEditText">"Select time"</string>
+    <string name="menuView">"Add menu"</string>
+    <string name="alarmCheckBox">"Set alarm"</string>
+    <string name="addDietChartButton">"Add to diet chart"</string>
+    <string name="menuText">"Menu "</string>
+    <string name="headerDoctorProfile">Doctor Profile</string>
+    <string name="tvDoctorName">Name</string>
+    <string name="etDoctorName">enter doctor name</string>
+    <string name="tvSpeciality">Speciality</string>
+    <string name="etSpeciality">enter speciality</string>
+    <string name="tvPhone">Phone</string>
+    <string name="phoneEditText">enter phone number</string>
+    <string name="emailTextView">Email</string>
+    <string name="emailEditText">enter email</string>
+    <string name="chamberTextView">Chamber</string>
+    <string name="chamberEditText">enter chamber location</string>
+    <string name="medicalhistoryTextView">Medical History</string>
+    <string name="takePresciptionPhoto">Capture Prescription</string>
+    <string name="dateTextView">Date</string>
+    <string name="capturedImage">capture image</string>
+    <string name="doctorTextView">Doctor</string>
+    <string name="doctorEditText">enter doctor name</string>
+    <string name="purposeTextView">Purpose</string>
+    <string name="purposeEditText">enter purpose</string>
+    <string name="title_activity_google_map">GoogleMapActivity</string>
+    
+    <string name="tvGeneralHealthInfo">Breastfeeding:
+
+Babies eat and eat and eat. Although nature has done a pretty good job of providing you and your baby with the right equipment, in the beginning it\s almost guaranteed to be harder than you expected. From sore nipples to tough latch-ons, nursing can seem overwhelming.
+1. Women who seek help have a higher success rate. "Think of ways to ensure success before you even give birth,suggests Stacey Brosnan, a lactation consultant in New York City. Talk with friends who had a good nursing experience, ask baby\s pediatrician for a lactation consultant\s number, or attend a La Leche League (nursing support group) meeting (see laleche.org to find one).
+2. Use hospital resources. Kira Sexton, a Brooklyn, New York, mom, says, "I learned everything I could about breastfeeding before I left the hospital." Ask if there\s a nursing class or a lactation consultant on staff. Push the nurse-call button each time you\re ready to feed the baby, and ask a nurse to spot you and offer advice.
+3. Prepare. At home, you\ll want to drop everything to feed the baby the moment she cries for you. But Heather O\Donnell, a mom in New York City, suggests taking care of yourself first. "Get a glass of water and a book or magazine to read." And, because breastfeeding can take a while, she says, "pee first!"
+        
+</string>
+
+    <string name="tvGeneralDietInfo">Breastfeeding:
+Serving Sizes: Use the serving size list below to measure amounts of food and liquids.
+•	1-1/2 cups (12 ounces) of liquid is the size of a soda-pop can.
+•	
+•	1 cup (8 ounces) of food is the size of a large handful.
+•	
+•	1/2 cup (4 ounces) of food is about half of a large handful.
+•	
+•	2 tablespoons (Tbsp) is about the size of a large walnut.
+•	
+•	1 tablespoon (Tbsp) is about the size of the tip of your thumb (from the last crease).
+•	
+•	1 teaspoon (tsp) is about the size of the tip of your little finger (from the last crease).
+DAILY SERVINGS FOR AN INFANT DIET
+•	Breast milk or infant formula: Breast milk or infant formula are the only nourishment needed by most healthy babies until they are 4-6 months old. Cow\s milk or other dairy products should not be given until at least one year of age. Your baby\s kidneys cannot handle the high protein and mineral content well until that age.
+•	
+o	0-3 months: 18-32 ounces
+o	
+o	4-6 months: 28-40 ounces
+o	
+o	7-9 months: 24-36 ounces
+o	
+o	10-12 months: 18-30 ounces
+
+</string>
+
+ <string name="tvGeneralVaccinationInfo">
+     
+     SUPPLEMENTS FOR INFANTS: Check with your doctor or caregiver before giving supplements on the list below to your baby. Their needs will depend on their diet.
+•	Iron
+•	
+o	From 4 to 12 months infants need about 1 milligram (mg) per kilogram (2.2 pounds body weight), or 10 mg per day at the most.
+o	
+o	Include all formulas and cereals in daily iron intake.
+o	
+•	Vitamin D
+•	
+o	May be needed if baby is not exposed to sunlight.
+o	
+o	300 IU per day for 0-6 months
+o	
+o	600 IU per day for 6-12 months
+o	
+•	Fluoride
+•	
+o	May be needed if water supply is low in fluoride.
+o	
+o	Check with you care giver for dosage of fluoride and the name of the product to buy.
+o	
+•	Vitamin B12
+•	
+o	May be needed by babies of vegan (strict vegetarian) mothers.
+o	
+o	Check with your caregiver for the dosage and the product to buy.
+o	
+Care Agreement
+You have the right to help plan your child\s care. To help with this plan, you must learn about your child\s dietary health. You can then discuss treatment options with your caregivers. Work with them to decide what care will be used to treat your child.
+
+     
+ </string>    
+
+</resources>

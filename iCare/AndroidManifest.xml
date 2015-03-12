@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ftfl.icare"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <permission
+        android:name="in.wptrafficanalyzer.locationingooglemapv2.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!--
+     The following two permissions are not required to use
+     Google Maps Android API v2, but are recommended.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="iCare"
+        android:theme="@style/AppTheme" >
+        
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <activity
+            android:name=".SplashActivity"
+            android:label="iCare"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:label="Home"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".UserProfileCreateActivity"
+            android:label="Create Profile"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".UserProfileViewActivity"
+            android:label="View Profile"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".UserProfileListActivity"
+            android:label="Profile List"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".DrProfileCreateActivity"
+            android:label="Create Doctor Profile"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".DrProfileViewActivity"
+            android:label="View Doctor Profile"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".DrProfileListActivity"
+            android:label="Dr Profile List"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".UserProfileDashboardActivity"
+            android:label="Profile Dashboard"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".DietAddActivity"
+            android:label="Add Diet"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".DietListActivity"
+            android:label="Diet List"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".DietViewActivity"
+            android:label="View Diet"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".VaccinationAddActivity"
+            android:label="Add Vaccination"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".VaccinationViewActivity"
+            android:label="View Vaccination"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".VaccinationListActivity"
+            android:label="Vaccination List"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".ICareInfoActivity"
+            android:label="iCare Dashboard"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".EmergencyCallActivity"
+            android:label="Emergency Call"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".GoogleMapActivity"
+            android:label="@string/title_activity_google_map" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyCJYivFmojEsNupCSPuQWPrJV0uECL4nI8" />
+        
+    </application>
+
+</manifest>
